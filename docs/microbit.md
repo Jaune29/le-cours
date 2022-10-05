@@ -19,4 +19,4 @@ while True :
    else:
        display.show(Image.SAD)
 ```
-*note : le programme réagi seulement à l'appui du bouton en seconde place sur la ligne du programme
+*note : le programme réagi seulement à l'appui du bouton en seconde place sur la ligne du programme*
