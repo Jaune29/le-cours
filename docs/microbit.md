@@ -20,3 +20,16 @@ while True :
        display.show(Image.SAD)
 ```
 *note : le programme réagi seulement à l'appui du bouton en seconde place sur la ligne du programme*
+
+## test 3: fonction NON
+
+```py
+from microbit import *
+
+while True:
+    if not button_a.is_pressed():
+        display.show(Image.ALL_ARROW)
+```
+
+## test 4: la fonction OU
+
