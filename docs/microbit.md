@@ -34,3 +34,10 @@ while True:
 
 ## test 4: la fonction OU
 
+```py
+from microbit import *
+
+while True :
+   if button_a.is_pressed() or button_b.is_pressed():
+       display.scroll("NEVER GONA GIVE YOU UP")
+```
