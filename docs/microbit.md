@@ -8,7 +8,7 @@ while True:
    display.show(Image.ANGRY)
 ```
 
-## test 2:
+## test 2: la fonction ET
 
 ```py
 from microbit import *
