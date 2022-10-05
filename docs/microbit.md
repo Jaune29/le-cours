@@ -14,12 +14,11 @@ while True:
 from microbit import *
 
 while True :
-   if button_b.is_pressed and button_a.is_pressed():
+   if button_b.is_pressed() and button_a.is_pressed():
        display.show(Image.HAPPY)
    else:
        display.show(Image.SAD)
 ```
-*note : le programme réagi seulement à l'appui du bouton en seconde place sur la ligne du programme*
 
 ## test 3: fonction NON
 
