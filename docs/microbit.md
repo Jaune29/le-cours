@@ -28,7 +28,9 @@ from microbit import *
 
 while True:
     if not button_a.is_pressed():
-        display.show(Image.ALL_ARROW)
+        display.show(Image.ANGRY)
+    else:
+        display.show(Image.BUTTERFLY)
 ```
 
 ## test 4: la fonction OU
