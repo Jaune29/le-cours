@@ -42,7 +42,7 @@ while True :
        display.scroll("NEVER GONA GIVE YOU UP")
 ```
 
-## test 4: la fonction OU-NON et NON-OU
+## test 4: la fonction ET-NON et NON-ET
 
 ```py
 from microbit import *
