@@ -41,3 +41,17 @@ while True :
    if button_a.is_pressed() or button_b.is_pressed():
        display.scroll("NEVER GONA GIVE YOU UP")
 ```
+
+## test 4: la fonction OU-NON et NON-OU
+
+```py
+from microbit import *
+
+while True:
+    if button_a.is_pressed() and not button_b.is_pressed():
+        display.show(Image.CLOCK1)
+    elif not button_a.is_pressed() and button_b.is_pressed():
+        display.show(Image.CLOCK2)
+    else:
+        display.show(Image.NO)
+```
