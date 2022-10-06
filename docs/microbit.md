@@ -55,3 +55,14 @@ while True:
     else:
         display.show(Image.NO)
 ```
+
+```py
+from microbit import *
+
+
+while True:
+   if not button_a.is_pressed() or not button_b.is_pressed():
+        display.show("1")
+   else:
+        display.show(Image.NO)
+```
